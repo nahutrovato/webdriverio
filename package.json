@@ -1,0 +1,20 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "npm": "^8.11.0"
+    },
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.19.7",
+        "@wdio/cli": "^7.19.7",
+        "@wdio/cucumber-framework": "^7.19.7",
+        "@wdio/local-runner": "^7.19.7",
+        "@wdio/spec-reporter": "^7.19.7",
+        "chromedriver": "^101.0.0",
+        "wdio-chromedriver-service": "^7.3.2"
+    },
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js"
+    }
+}
